@@ -1,0 +1,119 @@
+@import "../../App.scss";
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  max-width: 1366px;
+  margin: auto;
+  gap: 20%;
+
+  @include mobile {
+    flex-direction: column;
+    padding: 20px;
+    padding-top: 18%;
+    gap: 5%;
+    align-items: center;
+  }
+
+  .textcontainer {
+    // flex: 1;
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px;
+    gap: 20px;
+
+    h1 {
+      font-size: 48px;
+    }
+
+    h1:hover {
+      color: orange;
+    }
+    .imgContainer {
+      display: flex;
+      gap: 20px;
+
+      img {
+        width: 25px;
+        height: 25px;
+      }
+    }
+  }
+  .form {
+    position: relative;
+
+    .svg {
+      position: absolute;
+      margin: auto;
+      z-index: -1;
+    }
+
+    form {
+      // flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      @include mobile {
+        padding: 0 10%;
+        font-size: 20px;
+      }
+
+      input,
+      textarea {
+        padding: 10px;
+        color: white;
+        background-color: transparent;
+        border: 1px solid gray;
+        border-radius: 2px;
+      }
+
+      button {
+        background-color: orange;
+        padding: 10px 3px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+
+        @include mobile {
+          font-size: 24px;
+        }
+      }
+
+      button:hover {
+        transform: scale(1.05);
+      }
+      .success {
+        font-size: 20px;
+        color: rgb(66, 204, 66);
+        text-shadow: 2px 2px 5px darkgreen;
+        display: inline-block;
+      }
+      .error {
+        font-size: 20px;
+        color: rgb(247, 14, 14);
+        text-shadow: 2px 2px 5px rgb(92, 60, 60);
+        display: inline-block;
+      }
+    }
+    .copyright {
+      position: absolute;
+      right: -33%;
+      bottom: -65%;
+
+      @include mobile {
+        bottom: -10%;
+        right: 10%;
+      }
+      p {
+        font-family: cursive;
+        font-size: 14px;
+        a {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
