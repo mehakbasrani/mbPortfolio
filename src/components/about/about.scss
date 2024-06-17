@@ -78,6 +78,10 @@
     font-weight: 400;
     font-size: 36px;
     margin-bottom: 10px;
+
+    @include mobile {
+      margin-left: 5%;
+    }
   }
 
   h2:hover {
@@ -125,6 +129,9 @@
     font-weight: 400;
     font-size: 36px;
     margin-bottom: 10px;
+    @include mobile {
+      margin-left: 5%;
+    }
   }
 
   h2:hover {
@@ -184,6 +191,9 @@
     font-weight: 400;
     font-size: 36px;
     margin-bottom: 10px;
+    @include mobile {
+      margin-left: 5%;
+    }
   }
 
   h2:hover {
