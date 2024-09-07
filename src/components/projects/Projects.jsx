@@ -5,6 +5,15 @@ import { useRef } from "react";
 
 const projects = [
   {
+    imgsrc: "./sellmart.png",
+    alt: "sellmart",
+    title: "Sell Mart",
+    quotes: "Want To Easy buy and sell !?",
+    description:
+      "Users can buy and sell a wide range of goods and services...      ",
+    link: "https://sellmart-kappa.vercel.app/",
+  },
+  {
     imgsrc: "./gaanaBajaana.png",
     alt: "spotify",
     title: "Gaana Bajaana",
@@ -36,7 +45,7 @@ const projects = [
     title: "Medicare",
     quotes: "Want to book doctor's appointment online !?",
     description: "User can login and book appointment with doctors. ",
-    link: "https://659b0032480483c719fabc1f--spontaneous-salmiakki-7a19c3.netlify.app/",
+    link: "https://docondemand.netlify.app/",
   },
 ];
 
