@@ -14,14 +14,23 @@ const projects = [
     link: "https://sellmart-kappa.vercel.app/",
   },
   {
-    imgsrc: "./gaanaBajaana.png",
-    alt: "spotify",
-    title: "Gaana Bajaana",
-    quotes: "Want To Relax !?",
-    description:
-      "User can Login and interact with Spotify's streaming service..",
-    link: "https://mehakbasrani.github.io/Gaana-Bajaana/",
+    imgsrc: "./drappointment.png",
+    alt: "medicare",
+    title: "Medicare",
+    quotes: "Want to book doctor's appointment online !?",
+    description: "User can login and book appointment with doctors. ",
+    link: "https://docondemand.netlify.app/",
   },
+
+  {
+    imgsrc: "./myBooking.png",
+    alt: "Feel Like Home",
+    title: "Feel Like Home",
+    quotes: "Want To Feel Like Home Even When Travelling !?",
+    description: "User can book rooms and have a comfortable stay. ",
+    link: "https://feellikehome.netlify.app/",
+  },
+
   {
     imgsrc: "./TravelGuide.png",
     alt: "Travel Guide",
@@ -32,20 +41,13 @@ const projects = [
     link: "https://mehakbasrani.github.io/TravelGuide/",
   },
   {
-    imgsrc: "./myBooking.png",
-    alt: "Feel Like Home",
-    title: "Feel Like Home",
-    quotes: "Want To Feel Like Home Even When Travelling !?",
-    description: "User can book rooms and have a comfortable stay. ",
-    link: "https://github.com/mehakbasrani/bookingApp.git",
-  },
-  {
-    imgsrc: "./drappointment.png",
-    alt: "medicare",
-    title: "Medicare",
-    quotes: "Want to book doctor's appointment online !?",
-    description: "User can login and book appointment with doctors. ",
-    link: "https://docondemand.netlify.app/",
+    imgsrc: "./gaanaBajaana.png",
+    alt: "spotify",
+    title: "Gaana Bajaana",
+    quotes: "Want To Relax !?",
+    description:
+      "User can Login and interact with Spotify's streaming service..",
+    link: "https://mehakbasrani.github.io/Gaana-Bajaana/",
   },
 ];
 
