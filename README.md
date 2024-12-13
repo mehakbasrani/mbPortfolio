@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# **My Portfolio**
+This project is a personal portfolio website built with ReactJS and enhanced with Framer Motion for animations and smooth transitions. The portfolio showcases my skills, projects, and experiences engagingly and interactively.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## **Features**
+**Interactive Design**: Sleek and modern user interface.
+**Smooth Animations**: Powered by Framer Motion for fluid transitions and effects.
+**Responsive Layout**: Fully optimized for desktop and mobile devices.
 
-## Available Scripts
+## **Technologies Used**
+**ReactJS**: For building the user interface.
+**Framer Motion**: For animations and transitions.
+**CSS/Styled-Components**: For styling and responsive design.
 
-In the project directory, you can run:
+### **Live Demo**
+Check out the live version of my portfolio here:
+[Portfolio Website](https://mehakbasraniportfolio.netlify.app/)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### **Setup Instructions**
+#### Clone the Repository
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+git clone https://github.com/mehakbasrani/portfolio.git
+cd portfolio
 
-### `npm test`
+#### Install Dependencies
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+npm install
 
-### `npm run build`
+#### Start the Development Server
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+npm start
+Visit the app at http://localhost:3000 in your browser.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### **Customize Your Portfolio**
+Update Content: Modify the src/data folder or the specific components for your personal details, projects, and skills.
+Add More Animations: Explore Framer Motion's documentation to enhance or add custom animations.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### **Deploy Your Portfolio**
+To deploy the project, follow these steps:
 
-### `npm run eject`
+### Build the app:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+npm run build
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Deploy the build folder using platforms like:
+Vercel
+Netlify
+GitHub Pages
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
